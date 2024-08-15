@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(242,244,247);
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    width:100%;
+    height:100%;
+}
+ .main-div { 
+    display: flex;
+    justify-content: space-between;
+    margin: 20vh 10vw; 
+ }
+.fb-tagline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:50%;
+    padding: 55px;
+}
+.fb-tagline img {
+    margin: -30px;
+}
+.user-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;  
+    padding:0; 
+    width:90%;
+}
+h1{
+    font-weight: normal;
+    line-height: 28px;
+    color: rgb(28,30,33);
+    margin: 20px 0 ;
+}
+.user{
+    width: 300;
+    height: 300px;
+    padding: 16px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 1px;
+    margin: 0;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(255,255,255);
+    opacity: 0.5px;
+}
+.user input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 1px rgb(0, 6, 15);; 
+    margin:10px 0px 10px;
+    padding: 7px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.user input:focus {
+    outline: 1px blue solid;
+    box-shadow: rgb(24, 24, 24);
+}
+.user form {
+    padding-bottom: 20px;
+    border-bottom: rgb(222, 222, 222) solid 1px;
+}
+.link1{
+    text-decoration: none;
+    color:#0866ff;
+    margin: 30px 0px  15px;
+}
+button.log-in{
+    padding: 10px;
+    background-color: #0866ff;
+    color:#ffffff;
+    font-weight:bold;
+    font-size: medium;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 400px;
+    margin-bottom: 15px;
+}
+button.create-account{
+    margin-top: 9px;
+    color: #ffffff;
+    padding: 12px;
+    background-color: #37b71d;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.link{
+    color:black;
+    text-decoration: none;
+}
+p{
+    margin: 30px 100px;
+}
+button:hover{
+    cursor: pointer;
+}
+.link1:hover{
+    text-decoration: underline;
+}
